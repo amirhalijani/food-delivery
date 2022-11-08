@@ -13,7 +13,7 @@ const ResturantCard = ({
   featured,
 }) => {
   return (
-    <div className="rounded-2xl border-2 border-[#EDEEF2] overflow-hidden relative">
+    <div className="rounded-2xl border-2 border-[#EDEEF2] overflow-hidden relative cursor-pointer hover:bg-[#e7e7e7] hover:border-[#697BFF]">
       {/* Banner */}
       <div>
         <img src={banner} alt="banner" className="w-full h-auto" />
