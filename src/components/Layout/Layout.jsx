@@ -1,10 +1,10 @@
 import React from "react";
-import HomeNavbar from "../HomePage/Navbar/HomeNavbar";
+import Navbar from "./Navbar";
 
 export default function Layout({children}) {
   return (
     <div className="px-4 sm:px-8 md:px-16 lg:px-[10.rem] w-full">
-      <HomeNavbar />
+      <Navbar />
       {children}
     </div>
   );

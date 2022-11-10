@@ -1,6 +1,5 @@
 import React from "react";
 import HomeHeader from "./Header/HomeHeader";
-import HomeNavbar from "./Navbar/HomeNavbar";
 import MenuCategory from "./MenuCategory/MenuCategory";
 import Resturants from "./NearbyResturants/Resturants";
 import Layout from "../Layout/Layout";

@@ -1,10 +1,10 @@
 import React from "react";
 import ShopIcon from "@mui/icons-material/LocalMallOutlined";
 import MenuIcon from "@mui/icons-material/MenuRounded";
-import ProfileImage from "../../../assets/Profile.jpg";
+import ProfileImage from "../../assets/Profile.jpg";
 import { Link } from "react-router-dom";
 
-const HomeNavbar = () => {
+const Navbar = () => {
   return (
     <>
       <div className="w-full flex items-center justify-between py-5 border-b-2 border-[#EDEEF2]">
@@ -43,4 +43,4 @@ const HomeNavbar = () => {
   );
 };
 
-export default HomeNavbar;
+export default Navbar;
